@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Developer Portfolio</title>
+    <meta name="description"
+        content="Portfolio of a passionate software developer specializing in building exceptional digital experiences.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">Dev<span class="highlight">Portfolio</span>.</a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <button class="theme-toggle" aria-label="Toggle Dark Mode">
+                    <svg class="icon-sun" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z">
+                        </path>
+                    </svg>
+                    <svg class="icon-moon" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z">
+                        </path>
+                    </svg>
+                </button>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="greeting">Hello, I'm</span>
+                    <h1 class="hero-title">A Creative <span class="highlight">Software Developer</span></h1>
+                    <p class="hero-subtitle">I build accessible, pixel-perfect, secure, and performant web applications.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="blob-cont">
+                        <div class="yellow blob"></div>
+                        <div class="red blob"></div>
+                        <div class="green blob"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <a href="#about" aria-label="Scroll Down">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                    </svg>
+                </a>
+            </div>
+        </section>
+
+        <!-- Other sections will be added here -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I am a dedicated <strong>Software Developer</strong> with a passion for building robust and
+                            scalable web applications. My journey in tech started with a curiosity for how things work,
+                            and it has evolved into a career where I solve complex problems through code.</p>
+                        <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source
+                            projects, or enjoying a good cup of coffee while reading about the latest tech trends. I
+                            believe in continuous learning and always strive to improve my craft.</p>
+                    </div>
+                    <!-- Optional: Add a profile image here if available, otherwise text is fine -->
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <div class="skill-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript (ES6+)</span>
+                            <span>React</span>
+                            <span>Vue.js</span>
+                            <span>Tailwind CSS</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <div class="skill-tags">
+                            <span>Node.js</span>
+                            <span>Express</span>
+                            <span>Python</span>
+                            <span>Django</span>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools</h3>
+                        <div class="skill-tags">
+                            <span>Git & GitHub</span>
+                            <span>Docker</span>
+                            <span>VS Code</span>
+                            <span>Figma</span>
+                            <span>Webpack</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3 class="project-title">Project Name 1</h3>
+                            <p class="project-desc">A brief description of the project, the problems it solved, and the
+                                technologies used. This is a great place to showcase your problem-solving skills.</p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Node.js</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn-link">View Code</a>
+                                <a href="#" class="btn-link">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3 class="project-title">Project Name 2</h3>
+                            <p class="project-desc">Another amazing project that demonstrates your ability to build
+                                complex applications. Mention any unique features or challenges you overcame.</p>
+                            <div class="project-tech">
+                                <span>Vue.js</span>
+                                <span>Firebase</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn-link">View Code</a>
+                                <a href="#" class="btn-link">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3 class="project-title">Project Name 3</h3>
+                            <p class="project-desc">A mobile-first application focused on user experience and
+                                performance. Highlight the optimization techniques you used.</p>
+                            <div class="project-tech">
+                                <span>HTML/SASS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn-link">View Code</a>
+                                <a href="#" class="btn-link">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container contact-container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="contact-text">I'm currently open to new opportunities. Whether you have a question or just
+                    want to say hi, I'll try my best to get back to you!</p>
+                <div class="contact-actions">
+                    <a href="mailto:email@example.com" class="btn btn-primary">Say Hello</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 DevPortfolio. Built with <span class="heart">♥</span> and code.</p>
+            <div class="social-links">
+                <!-- Add social icons here -->
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
